@@ -1,0 +1,34 @@
+# 忽略所有 Cargo 构建目录
+**/target/
+
+# 忽略 Cargo.lock 文件（如果你不希望将它们提交到版本控制）
+**/Cargo.lock
+
+# 忽略 Cargo 配置文件
+**/Cargo.toml
+
+# 忽略 IDE 和编辑器产生的临时文件
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略 Rust 格式化工具生成的文件
+*.rs.bk
+
+# 忽略任何压缩文件和其他编译结果
+*.tar.gz
+*.zip
+*.tar.xz
+
+# 忽略 Rust 编译时的临时文件
+**/.cargo/
+
+# 忽略 Rust 包裹和缓存
+**/target/debug/
+**/target/release/
+
